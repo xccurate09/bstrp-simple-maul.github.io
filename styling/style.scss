@@ -1,0 +1,62 @@
+//color
+
+
+//font
+
+
+//mixin
+
+
+//styling
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    
+    .jumbotron {
+    background-image: url('/asj/images/work01-hover.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vmin;
+    width: 100vmax;
+    }
+
+    footer {
+    justify-content: center;
+    justify-items: center;
+    height: 5em;
+    padding-top: 2em;
+    margin: 0 auto;
+
+    span {
+        display: block;
+        text-align: center;
+        }
+    }
+
+    .tutorial {
+        h2 {
+            padding-top: 5em;
+            display: block;
+            text-align: center;
+            text-transform: inherit;
+        }
+    }
+    
+
+    #red {
+        color: red;
+    }
+    
+    #carouselExampleControls {
+        padding-top: 4em;
+        height: 70vmin;
+        width: 70vmax;
+        margin: 0 auto;
+
+    }
+}

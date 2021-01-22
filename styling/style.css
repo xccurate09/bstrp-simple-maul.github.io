@@ -1,0 +1,48 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body .jumbotron {
+  background-image: url("/asj/images/work01-hover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vmin;
+  width: 100vmax;
+}
+
+body footer {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+  height: 5em;
+  padding-top: 2em;
+  margin: 0 auto;
+}
+
+body footer span {
+  display: block;
+  text-align: center;
+}
+
+body .tutorial h2 {
+  padding-top: 5em;
+  display: block;
+  text-align: center;
+  text-transform: inherit;
+}
+
+body #red {
+  color: red;
+}
+
+body #carouselExampleControls {
+  padding-top: 4em;
+  height: 70vmin;
+  width: 70vmax;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=style.css.map */
